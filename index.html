@@ -3,87 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Maha Fikry - DevOps Portfolio</title>
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <title>Maha Fikry - DevOps Engineer Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        section {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #555;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 0.5rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #333;
+            color: white;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact {
+            margin-bottom: 1rem;
+        }
+    </style>
 </head>
 <body>
-    <!-- Header -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Maha Fikry</h1>
+        <p>DevOps Engineer | Cairo, Egypt</p>
+        <p><a href="https://github.com/Maha145" target="_blank">GitHub</a> | <a href="https://linkedin.com/in/maha-fikry" target="_blank">LinkedIn</a> | <a href="mailto:mahafikry55@gmail.com">Email Me</a></p>
     </header>
 
-    <!-- Home Section -->
-    <section id="home">
-        <div class="hero-container">
-            <h1>Maha Fikry</h1>
-            <p>DevOps Engineer</p>
-            <a href="#portfolio" class="cta-btn">Explore My Portfolio</a>
-        </div>
+    <section>
+        <h2>About Me</h2>
+        <p>I'm an ambitious DevOps Engineer eager to apply my expertise in DevOps tools and software development. I enjoy solving challenges through automation, cloud solutions, and continuous delivery. I'm looking forward to contributing to innovative projects in a dynamic and fast-paced environment.</p>
+
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> Java, Python, C, C++</li>
+            <li><strong>Scripting Languages:</strong> Python, Bash</li>
+            <li><strong>System Administration:</strong> Linux</li>
+            <li><strong>Version Control:</strong> Git, GitHub</li>
+            <li><strong>CI/CD Tools:</strong> Jenkins</li>
+            <li><strong>Containerization:</strong> Docker, Kubernetes</li>
+            <li><strong>Infrastructure as Code:</strong> Terraform</li>
+            <li><strong>Configuration as Code:</strong> Ansible</li>
+            <li><strong>Cloud Platforms:</strong> AWS</li>
+        </ul>
+
+        <h2>Projects</h2>
+
+        <h3>Real-World DevOps Project (DEPI Initiative)</h3>
+        <p>Involved in setting up a complete CI/CD pipeline using Jenkins, Docker, and Kubernetes, along with automated infrastructure provisioning using Terraform and AWS. Worked on integrating Ansible for configuration management and Prometheus for monitoring.</p>
+        <p><a href="https://github.com/Maha145" target="_blank">GitHub Link</a></p>
+
+        <h3>Infrastructure as Code with Terraform</h3>
+        <p>Automated AWS cloud infrastructure provisioning using Terraform and Ansible to ensure scalable and consistent environments. Reduced manual intervention and increased reliability of deployment processes.</p>
+        <p><a href="https://github.com/Maha145" target="_blank">GitHub Link</a></p>
+
+        <h3>Graduation Project: Endless Game</h3>
+        <p>Developed an Endless Game using C#, Unity, and Adobe Photoshop. This project demonstrated skills in game development, object-oriented programming, and asset creation.</p>
+        <p><a href="https://github.com/Maha145" target="_blank">GitHub Link</a></p>
+
+        <h2>Education</h2>
+        <p><strong>Bachelor's Degree in Computer Science</strong><br>Menoufia University, Sep 2018 - Jul 2022</p>
+
+        <h2>Certifications & Courses</h2>
+        <ul>
+            <li>Introduction to DevOps - IBM</li>
+            <li>Python Programming Basics - MaharaTech</li>
+            <li>Red Hat System Administration I - MaharaTech</li>
+            <li>Kubernetes in Arabic - Udemy</li>
+            <li>ISTQB Foundation Level - MaharaTech</li>
+        </ul>
     </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio">
-        <h2>My Projects</h2>
-        <div class="portfolio-grid">
-            <!-- Project Card Example -->
-            <div class="project-card">
-                <h3>DevOps Pipeline Project</h3>
-                <p>Implemented CI/CD pipeline using Jenkins, Docker, and Kubernetes.</p>
-                <p><strong>Tools:</strong> Jenkins, Docker, Kubernetes, AWS</p>
-                <a href="https://github.com/Maha145" class="btn" target="_blank">View on GitHub</a>
-            </div>
-            <!-- Repeat for other projects -->
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <div class="skills-container">
-            <div class="skill">
-                <i class="fab fa-docker"></i>
-                <p>Docker</p>
-            </div>
-            <div class="skill">
-                <i class="fab fa-aws"></i>
-                <p>AWS</p>
-            </div>
-            <div class="skill">
-                <i class="fas fa-code"></i>
-                <p>Python</p>
-            </div>
-            <!-- Add more skills here -->
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:mahafikry55@gmail.com">mahafikry55@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/maha-fikry" target="_blank">maha-fikry</a></p>
-        <p>GitHub: <a href="https://github.com/Maha145" target="_blank">Maha145</a></p>
-    </section>
-
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Maha Fikry. All Rights Reserved.</p>
+        <p>Contact: <a href="mailto:mahafikry55@gmail.com">mahafikry55@gmail.com</a></p>
+        <p>&copy; 2024 Maha Fikry</p>
     </footer>
-
 </body>
 </html>
